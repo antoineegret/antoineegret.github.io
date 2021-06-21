@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body{
+    background: linear-gradient(#4a8bdf, #9198e5);
+    height: auto;
+}
+li{
+    list-style: none;
+    display: inline;
+    font-size: 1em;
+
+}
+a{
+    color:#09b0e7;
+}
+i{
+    font-size: 4em;
+    padding-right: 0.5em;
+}
+.icons{
+    margin-top: 1em;
+    height: 6em;
+    width: auto;
+}
+
+.iconsHobbies{
+  height: 4em;
+  width: auto;
+  margin-top: 0.3em;
+}
+.iconsAdobe{
+    height: 5em;
+    width: auto;
+}
+.photoProfil{
+    height: 10em;
+    width: auto;
+}
+h1, h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+h3{
+    color: #09b0e7;
+    font-family: 'Staatliches', cursive;
+}
+p{
+    color:#09b0e7;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+}
+.Tfooter{
+    height: 5em;
+}
+
+/* blocRealisation responsive galerie photo */
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: space-between;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .columnPrésentation{
+    -ms-flex: 40%; /* IE10 */
+    flex: 80%;
+    max-width: 80%;
+    padding: 0 4px;
+
+  }
+  .columnPrésentationPhoto{
+    -ms-flex: 40%; /* IE10 */
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+
+
+  .columnContact{
+    -ms-flex: 40%; /* IE10 */
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+
+  }
+  
+  .imgPortfolio{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .carte{
+      margin-top: 1em;
+  }
+
+  @media only screen and (min-width:1600px) {
+    .max_width_1660px {
+      max-width: 1600px;
+      align-self: center;
+    }
+    
+  }
+
+
+ /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+    li{
+      font-size: 0.8em;
+    }
+
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    i{
+      font-size: 3em;
+    }
+    .hobbies{
+      font-size: 0em;
+    }
+    .iconsHobbies{
+      height: 0em;
+    }
+  }
