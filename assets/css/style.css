@@ -103,9 +103,9 @@ p{
       margin-top: 1em;
   }
 
-  @media only screen and (min-width:1600px) {
-    .max_width_1660px {
-      max-width: 1600px;
+  @media only screen and (min-width:1550px) {
+    .max_width_1550px {
+      max-width: 1550px;
       align-self: center;
     }
     
