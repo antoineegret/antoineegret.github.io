@@ -1,290 +1,393 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- lien Font Awesome -->
-    <script src="https://kit.fontawesome.com/1fe963fcac.js" crossorigin="anonymous"></script>
-    <!-- lien google font police -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Portfolio antoine.</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Antoine Egret</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  
   </head>
   <body>
-    <div class="max_width_1550px col-10 col-xl-10 text-white text-center mx-auto">
-      <!-- début div header -->
-      <div class="Theader">
-    <h1 id="home">Curriculum vitae Antonius Egret</h1>
+
+    <nav class=" navbar navbar-expand-md bg-light navbar-light sticky-top">
+      <div class="container">
         
-    <div class="Navbar bg-light fixed-bottom m-1">
-      <ul class="m-1">
-        <li class="liNavbar"><a href="#home"><i class="fas fa-home"></i></a></li>
-        <li class="liNavbar"><a href="#diplome"><i class="fas fa-user-graduate"></i></a></li>
-        <li class="liNavbar"><a href="#experience"><i class="fas fa-briefcase"></i></a></li>
-        <li class="liNavbar"><a href="#realisation"><i class="fas fa-palette"></i></a></li>
-        <li class="liNavbar"><a href="#contact"><i class="fas fa-at"></i></a></li>
-      </ul>
+      <a href="index.html" class="navbar-brand text-uppercase fw-bold" alt="logo">
+        <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Antoine</span>Egret</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Qui suis-je ?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#expertise">Expertises</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
     </div>
+       
+    </div>
+    </nav>
 
+    <section class="sectionTop" class="my-5">
+      <div class="container">
+        <div class="row gy-4 gy-md-0 gy-5 align-items-center">
+          <div class="col-12 col-md-6 my-md-5">
+            <h1 class="fw-bold text-primary">Je suis Antoine Egret<br> developpeur web.</h1>
+            <h2 class="fw-light">Bienvenue sur mon portfolio.</h2>
+            <p>Développeur web junior, diplômé en 2020 d'un titre professionnel "développeur web et web mobile" je suis à la recherche d'une première expérience dans le domaine.</p>
+            <a href="#expertise" class="fw-bold btn btn-primary" role="button">Mon expertise web</a>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="assets/img/mwaMieu.png" class="w-100" alt="">
+          </div>
+        </div>
       </div>
-      <!-- fin div header -->
+    </section>
 
-      <!-- début div body -->
-      <div class="Tbody">
-        <!-- début div presentation -->
-        <div class="row Présentation">
-          <div class=" column columnPrésentationPhoto">
-            <img class="imgProfil img-fluid img-thumbnail" src="assets/img/photopro.jpg" alt="">
-            <div>
-              <h3 class="text-white hobbies">Hobbies:</h3>
-              <img class="iconsHobbies img-thumbnail" src="assets/img/snooker.png" alt="">
-              <img class="iconsHobbies img-thumbnail" src="assets/img/helmet.png" alt="">
-              <img class="iconsHobbies img-thumbnail" src="assets/img/dumbbell.png" alt="">
-              <img class="iconsHobbies img-thumbnail" src="assets/img/joystick.png" alt="">
-              <img class="iconsHobbies img-thumbnail" src="assets/img/laptop.png" alt="">
-              <img class="iconsHobbies img-thumbnail" src="assets/img/gloves.png" alt="">
-              <img class="iconsHobbies img-thumbnail" src="assets/img/electric-guitar.png" alt="">
-              
-              <img class="iconsHobbies img-thumbnail" src="assets/img/shooting-range(1).png" alt="">
-
+    <section id="expertise" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-0 text-primary">Mon expertise</h2>
+        <h3 class="fw-light fs-5">Developpement web et design.</h3>
+        <div class="row gy-4 mt-4">
+          <div class="col-12 col-md-7">
+               <!-- progress bar HTML -->
+      <div class="bg-white p-3 mb-3">
+        <div class="row align-items-center">
+          <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+            <div class="d-flex align-items-center">
+              <i class="fab fa-html5 fa-2x me-3 text-primary"></i>
+              <p class="fw-bold m-0">HTML</p>
             </div>
           </div>
-
-          <div class="column text-start columnPrésentation">
-            <h2 class="text-white">Bonjour</h2>
-
-          <p class="text-white">
-            Je m'appelle Antoine Egret, je suis développeur web junior, diplômé en 2020 d'un titre professionnel développeur web et web mobile, j'ai acquis durant 
-            cette formation les connaissances nécessaires au bon fonctionnement d'un site web, du front-end jusqu'au back-end grâce aux technologies suivantes:
-          </p>
-          <ul class="text-white">
-            <li><i class="fab fa-html5"></i></li>
-            <li><i class="fab fa-css3-alt"></i></li>
-            <li><i class="fab fa-js-square"></i></li>
-            <li><i class="fab fa-php"></i></li>
-            <li><i class="fas fa-server"></i></li>
-            <li><i class="fab fa-bootstrap"></i></li>
-            <li><i class="fab fa-github"></i></li>
-            <li><i class="fab fa-react"></i></li>
-          </ul>
-          <p class="text-white">J'ai également des connaissances en Web Design & Print, je les ai 
-            acquises lors de mon BEP Métiers de la Communication et des Industries Graphiques, mais
-            aussi lors d'une première année dans une école de graphisme à Paris. Durant cette 
-            première année à Paris, je préparais un bachelor en Graphisme et Multimédia, 
-            malheureusement je n'ai pas pu poursuivre jusqu'à l'obtention du diplôme par manque 
-            d'argent, puisqu'il s'agissait d'une école privée très chère. Grâce à tout cela, j'ai pu 
-            acquérir une bonne connaissance des logiciels de la suite adobe:
- </p>
-          <ul class="p-1">
-            <li><img class="iconsAdobe" src="assets/img/photoshop.png" alt=""></li>
-            <li><img class="iconsAdobe" src="assets/img/illustrator.png" alt=""></li>
-            <li><img class="iconsAdobe" src="assets/img/indesign.png" alt=""></li>
-            <li><img class="iconsAdobe" src="assets/img/experience.png" alt=""></li>
-          </ul>
-
-         
+          <div class="col">
+            <div class="progress" date-bs-toggle="tooltip" title="100%">
+              <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
           </div>
-
-          
-
         </div>
-        <!-- fin div présantation -->
-        <!-- début div diplome et formation -->
-        <div class="row Diplôme">
-          <h2 id="diplome">Diplômes et formations:</h2>
-          
-          <div class="column">
-            <div class="carte bg-light rounded border border-5">
-              <img class="icons" src="assets/img/responsive.png" alt="">
-              <h3>POEC Développeur Application Mobile</h3>
-              <p>mai à juillet 2021</p>
-              <p>La formation Développeur Applications Mobiles doit permettre aux stagiaires d’acquérir les compétences nécessaires 
-                pour développer des applications web en intégrant les recommandations de sécurité, dans le respect des normes, standards 
-                et des bonnes pratiques reconnus par la profession.</p>
-            </div>
-            </div>
-
-          <div class="column">
-          <div class="carte bg-light rounded border border-5">
-            <img class="icons" src="assets/img/responsive.png" alt="">
-            <h3>Titre Professionnel Développeur web et web mobile</h3>
-            <p>niveau 5 bac+2<br>2019/2020</p>
-            <p>La formation prépare au Titre Professionnel « Développeur web et web mobile » RNCP 31114 BAC+2, Niveau 5 de la 
-              nomenclature européenne. Il s’agit d’un titre certifié par l’État et délivré par le Ministère du Travail.</p>
-          </div>
-          </div>
-
-          <div class="column">
-          <div class=" carte bg-light rounded border border-5">
-            <img class="icons" src="assets/img/learning.png" alt="">
-            <h3>Diplôme d'accès aux études universitaires</h3>
-            <p>équivalent Bac L<br>2016/2017</p>
-            <p>Le DAEU A, Diplôme d'accès aux études universitaires et un équivalent au baccalauréat Littéraire</p>
-          </div>
-          </div>
-
-          <div class="column">
-          <div class=" carte bg-light rounded border border-5">
-            <img class="icons" src="assets/img/graphic-design.png" alt="">
-            <h3>BEP métiers de la communication et des industries graphique</h3>
-            <p>2008/2010</p>
-            <p>J'y ai appris la PAO pour le print (suite Adobe) et l'impression offset</p>
-          </div>
-          </div>
-
-        </div>
-        <!-- fin de la div formation et diplome -->
-
-        <!-- début de la div expérience pro -->
-        <div class="row experience">
-          <h2 id="experience">Expériences Professionnels:</h2>
-          
-          <div class="column">
-            <div class="bg-light rounded border border-5 carte">
-            <img class="icons" src="assets/img/customer-service.png" alt="">
-            <h3>Agent support</h3>
-            <p>Janvier 2022 à aujourd'hui</p>
-            <p>Agent support chez CGI pour le compte du SPI EDF</p>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="bg-light rounded border border-5 carte">
-            <img class="icons" src="assets/img/delivery.png" alt="">
-            <h3>Opérateur réception</h3>
-            <p>septembre à décembre 2020</p>
-            <p>Mission intérim chez Nestlé sitpa à Rosière en Santerre</p>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="bg-light rounded border border-5 carte">
-            <img class="icons" src="assets/img/handle-with-care.png" alt="">
-            <h3>Manutentionnaire</h3>
-            <p>octobre 2018 à avril 2019</p>
-            <p>Mission intérim chez Nuttens Services à Pertain/hypercourt</p>
-            </div>
-          </div>
-
-          <div class="column  carte">
-            <div class="bg-light rounded border border-5">
-              <img class="icons" src="assets/img/customer-service.png" alt="">
-            <h3>Equipier polyvalent</h3>
-            <p>Novembre 2017 à avril 2018</p>
-            <p>Préparation de sandwich chez Mc donnald's RATP la défense</p>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="bg-light rounded border border-5 carte">
-            <img class="icons" src="assets/img/handle-with-care.png" alt="">
-            <h3>Manutentionnaire</h3>
-            <p>juin à octobre 2017</p>
-            <p>Mission intérim chez Nuttens Services, Eiffage, Santerre2000</p>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="bg-light rounded border border-5 carte">
-            <img class="icons" src="assets/img/delivery-truck.png" alt="">
-            <h3>Aide déménageur</h3>
-            <p>juin à septembre 2015/2016</p>
-            <p>deménagements manutention et
-              emballage des affaires des clients chez TFSL déménagement</p>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="bg-light rounded border border-5 carte">
-            <img class="icons" src="assets/img/care.png" alt="">
-            <h3>Trieur pomme de terre</h3>
-            <p>septembre à octobre 2014</p>
-            <p>emploi saisonier chez EARL Depourcq à omencourt</p>
-            </div>
-          </div>
-
-        </div>
-        <!-- fin de la div expérience pro -->
-
-        <!-- début de la div portfolio -->
-        
-          <div class="row portfolio mx-auto">
-            <h2 id="realisation">Réalisations:</h2>
-            <div class="column">
-              <img src="assets/img/realisation/maxresdefault.jpg" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/foncia.png" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/sauvagine.png" class="img-thumbnail imgPortfolio" alt="">
-            </div>
-            <div class="column">
-              <img src="assets/img/realisation/born.PNG" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/beauxbatons.jpg" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/batmotolefinalantoineegret.jpg" class="img-thumbnail imgPortfolio" alt="">
-              
-            </div>
-            <div class="column">
-              
-              <img src="assets/img/realisation/couvstallone.jpg" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/zombie.jpg" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/piscidex.png" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/opus.PNG" class="img-thumbnail imgPortfolio" alt="">
-            </div>
-            <div class="column">
-              <img src="assets/img/realisation/agencevoyageinternet.png" class="img-thumbnail imgPortfolio" alt="">
-              <img src="assets/img/realisation/violence.jpg" class="img-thumbnail imgPortfolio" alt="">
-            </div>
-
-          </div>
-        <!-- fin de la div portfolio -->
-
-        <!-- début de la div contact -->
-        <div class="row contact mx-auto">
-          <h2 id="contact">Contacts:</h2>
-
-          <div class="column columnContact bg-light rounded border border-5 carte">
-            <img class="icons" src="assets/img/address-book.png" alt="">
-            <address>
-              <p>e-mail:<br>
-              <a href="mailto:a.egret@laposte.net">Envoyer un e-mail</a></p>
-            </address>
-            <p>linkedin:<br>
-            <a href="https://www.linkedin.com/in/antoine-egret-a8a95a194/">cliquer ici</a></p>
-            <p>j'ai bien conscience qu'il est contraignant de me contacter uniquement par e-mail ou Linkedin, mais je ne souhaite pas mettre mes informations 
-              Personnelles à disposition de toute personne potentiellement malveillante, sans quoi il suffirait d'écrire mon nom et prénom dans Google pour obtenir 
-              mon numéro de téléphone mon adresse etc...</p>
-
-          </div>
-
-        </div>
-
       </div>
-      <!-- fin div body -->
+
+      <!-- progress bar css -->
+      <div class="bg-white p-3 mb-3">
+        <div class="row align-items-center">
+          <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+            <div class="d-flex align-items-center">
+              <i class="fab fa-css3-alt fa-2x me-3 text-primary"></i>
+              <p class="fw-bold m-0">CSS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="progress" date-bs-toggle="tooltip" title="75%">
+              <div class="progress-bar w-75" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <!-- progress bar JS -->
+      <div class="bg-white p-3 mb-3">
+        <div class="row align-items-center">
+          <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+            <div class="d-flex align-items-center">
+              <i class="fab fa-js fa-2x me-3 text-primary"></i>
+              <p class="fw-bold m-0">JS</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="progress" date-bs-toggle="tooltip" title="50%">
+              <div class="progress-bar w-50" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- progress bar PHP -->
+      <div class="bg-white p-3 mb-3">
+        <div class="row align-items-center">
+          <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+            <div class="d-flex align-items-center">
+              <i class="fab fa-php fa-2x me-3 text-primary"></i>
+              <p class="fw-bold m-0">PHP</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="progress" date-bs-toggle="tooltip" title="50%">
+              <div class="progress-bar w-50" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- progress bar SASS -->
+      <div class="bg-white p-3 mb-3">
+        <div class="row align-items-center">
+          <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+            <div class="d-flex align-items-center">
+              <i class="fab fa-bootstrap fa-2x me-3 text-primary"></i>
+              <p class="fw-bold m-0">Boot-strap</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="progress" date-bs-toggle="tooltip" title="75%">
+              <div class="progress-bar w-75" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- progress bar SASS -->
+      <div class="bg-white p-3 mb-3">
+        <div class="row align-items-center">
+          <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+            <div class="d-flex align-items-center">
+              <i class="fab fa-react fa-2x me-3 text-primary"></i>
+              <p class="fw-bold m-0">React-native</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="progress" date-bs-toggle="tooltip" title="25%">
+              <div class="progress-bar w-25" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+          </div>
+          <div class="col-12 offset-md-1 col-md-4">
+            <img src="assets/img/code.jpg" alt="écran montrant du code PHP" width="100%">
+          </div>
+        </div>
+      </div>
+
+     
 
     
-      <!-- début div footer -->
-      <div class="Tfooter">
+    </section>
+    <!-- card projet -->
+    <section id="portfolio" class="pb-5">
+      
+        <div class="px-3 py-3">
+          <div class="container">
+            <h2 class="my-5 text-primary">Mon portfolio</h2>
+            <h3 class="fw-light fs-5">Projets perso et pro</h3>
+
+            <div class="row gy-4 gy-md0 mt-4">
+  
+              <!-- card -->
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card">
+                  <img src="assets/img/code.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">hello world</p>
+                      <a class="btn btn-primary"  href="projet1/projet1.html">projet1</a>
+                  </div>
+              </div>
+            </div>
+            <!-- card fin -->
+            <!-- card -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card">
+                <img src="assets/img/code.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">hello world</p>
+                    <a class="btn btn-primary" href="projet1.html">projet1</a>
+                </div>
+            </div>
+          </div>
+          <!-- card fin -->
+          <!-- card -->
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="assets/img/code.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">hello world</p>
+                  <a class="btn btn-primary" href="projet1.html">projet1</a>
+              </div>
+          </div>
+        </div>
+        <!-- card fin -->
+        <!-- card -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="assets/img/code.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">hello world</p>
+                <a class="btn btn-primary" href="projet1.html">projet1</a>
+            </div>
+        </div>
+      </div>
+      <!-- card fin -->
+          </div>
+
+          </div>
+         
+             
+              
+          </div>
+        
+            
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-0 text-primary">Un projet de création web ?</h2>
+        <h3 class="fw-light fs-5">Allons en discuter autour d'un verre</h3>
+
+        <div class="row gy-4 mt-4">
+          <div class="col-12 col-md-5">
+            <img src="assets/img/grab-a-coffee.jpg" alt="" width="100%">
+          </div>
+          <div class="col-12 offset-md-1 col-md-6">
+
+            <form action="" class="row gy-4">
+
+              <div class="col-6">
+                <label for="prenom" class="form-label">Prénom</label>
+                <input type="text" class="form-control" name="prenom" id="prenom">
+              </div>
+
+              <div class="col-6">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" name="nom" id="nom">
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" name="email" id="email">
+              </div>
+
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea type="text" class="form-control" name="message" id="message" rows="3"></textarea>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
 
       </div>
-      <!-- fin div footer -->
+    </section>
 
+<!-- footer -->
 
-    </div>
+    <footer class="border-top">
+      <div class="container py-5">
+          <div class="row gy-4 align-items-center">
+              <div class="col-12 col-md-4">
+                  <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
+                      <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Antoine</span> Egret
+                  </a>
+              </div>
+              <div class="col-12 col-md-4 text-md-center">
+                  <ul class="list-unstyled mb-0">
+                      <li>
+                          <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
+                             data-bs-target="#mentionsLegales">Mentions légales</a>
+                      </li>
+                  </ul>
+              </div>
+              <div class="col-12 col-md-4 text-md-end">
+                  <ul class="list-inline mb-0">
+                      <li class="list-inline-item">
+                          <a href="https://www.linkedin.com/in/antoine-egret-a8a95a194/" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
+                             title="LinkedIn">
+                              <i class="fab fa-linkedin fa-2x"></i>
+                          </a>
+                      </li>
+                      <!-- <li class="list-inline-item">
+                          <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
+                             title="Instagram">
+                              <i class="fab fa-instagram-square fa-2x"></i>
+                          </a>
+                      </li> -->
+                      <!-- <li class="list-inline-item">
+                          <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+                              <i class="fab fa-twitter-square fa-2x"></i>
+                          </a>
+                      </li> -->
+                  </ul>
+              </div>
+          </div>
+      </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Modal -->
+      <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel"
+           aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title">Mentions Légales</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus leo, volutpat vitae
+                          mi
+                          ultrices,
+                          sollicitudin
+                          blandit dui. Mauris ultricies iaculis leo id consequat. Class aptent taciti sociosqu ad
+                          litora
+                          torquent
+                          per conubia
+                          nostra, per inceptos himenaeos. Sed posuere risus viverra ornare porttitor. Nullam egestas
+                          nec
+                          libero eget
+                          sagittis.
+                          Phasellus vulputate ante a vulputate vehicula. Suspendisse nec dolor ante.
+                      </p>
+                      <p>
+                          Nunc auctor semper turpis. Duis quam velit, aliquam ut mi vel, sollicitudin dapibus erat.
+                          Etiam
+                          vitae
+                          malesuada urna.
+                          Vestibulum scelerisque lacus at molestie cursus. Donec placerat enim id enim feugiat
+                          gravida.
+                          Integer ut
+                          maximus libero.
+                          Nulla faucibus dolor vitae varius rutrum. Nunc neque sem, convallis id lorem quis, vulputate
+                          imperdiet
+                          eros. Donec
+                          viverra commodo congue.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
+      
+      
+  </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+  </script>
   </body>
 </html>
