@@ -1,0 +1,46 @@
+.primaryColor{
+    color: #ffff;
+    font-weight: bold;
+    background-color: #0C0096;
+
+}
+.primaryColorSection{
+    background-image: linear-gradient(176deg,#0C0096 65%,#fff 60%);
+
+}
+.fontPrimaryColor, h4{
+    color: #0C0096;
+    font-weight: bold;
+}
+.nav-link{
+    color: #ffff;
+    font-weight: lighter;
+}
+.btnSecondaryColor{
+    background-color: #FA9000;
+    color: #0C0096;
+    font-weight: bold;
+}
+.secondaryColor{
+    color: #FA9000;
+}
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+h2{
+    font-weight: bolder;
+}
+p{
+    font-size: 2vh;
+}
+.card {
+    transition: 0.3s;
+    border: transparent;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
