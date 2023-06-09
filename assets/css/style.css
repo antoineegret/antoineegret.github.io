@@ -1,3 +1,7 @@
 .sectionTop, #portfolio{
     background-image: linear-gradient(to bottom right, #A8DDF8, #B9A8F8);
 }
+.card-img-top{
+    height: 35vh;
+    width: auto;
+}
