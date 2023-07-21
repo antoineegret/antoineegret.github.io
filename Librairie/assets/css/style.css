@@ -57,4 +57,14 @@ footer{
  button:hover{
     opacity: 0.7;
 }
+.buttonVoirPlus button{
+    border: none;
+    margin: 3rem;
+    padding: 1rem;
+    color: white;
+    background-color: #ca6a2d;
+    cursor: pointer;
+    width: auto;
+    font-size: 1.5rem;
+}
 
