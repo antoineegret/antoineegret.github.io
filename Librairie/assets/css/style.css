@@ -24,6 +24,10 @@ h3{
 .containerSection{
     color: #ca6a2d;
 }
+.containerSectionNouveautés{
+    display: flex;
+    justify-content: center;
+}
 footer{
     list-style: none;
 }
