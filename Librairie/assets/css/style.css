@@ -17,6 +17,10 @@
 h2{
     font-size: 1.4rem;
 }
+h3{
+    color:#ca6a2d;
+    font-weight: bold;
+}
 .containerSection{
     color: #ca6a2d;
 }
