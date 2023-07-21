@@ -4,6 +4,10 @@
 .backgroundHeaderImage{
     width: 10rem;
 }
+.navbar-light{
+    color: #477670;
+    font-weight: bold;
+}
 .nav-link,.form-control, h1, h2{
     color: #1f4e46;
 }
