@@ -11,18 +11,7 @@ body{
 	width: 50vw;
 	height: auto;
   }
-  .imgBands{
-	width: 25rem;
-	height: auto;
-  }
-  .imgBandSecond{
-	width: 20rem;
-	height: auto;
-  }
-  .imgBandThird{
-	width: 10rem;
-	height: auto;
-  }
+
 
   .navButton{
 	color: #ffff52;
