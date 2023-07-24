@@ -1,13 +1,29 @@
+body{
+	background-image: url("../img/HD-wallpaper-red-smoke-nebula-wave.jpg"); 
+	background-size: 100%;
+}
 .header {
 	padding: 1rem;
 	text-align: center;
-	background: #000000;
 	color: white;
   }
   .headerImg{
 	width: 50vw;
 	height: auto;
   }
+  .imgBands{
+	width: 25vw;
+	height: auto;
+  }
+  .imgBandSecond{
+	width: 20vw;
+	height: auto;
+  }
+  .imgBandThird{
+	width: 15vw;
+	height: auto;
+  }
+
   .navButton{
 	color: #ffff52;
 	/* width: 10rem; */
