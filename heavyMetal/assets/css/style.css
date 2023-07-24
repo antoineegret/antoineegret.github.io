@@ -27,6 +27,7 @@ body{
 	border: #000000 solid 2px;
 }
 .btn {
+	min-height: 10vh;
 	background: #000000;
 	color: #ffff52;
 	font-size: 5vw;
@@ -43,6 +44,7 @@ body{
 	border: solid #000000 0.5vw;
 }
 .icons{
+	min-height: 10vh;
 	font-size: 5vw;
 }
 
