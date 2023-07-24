@@ -26,6 +26,26 @@ body{
 	color: #000000;
 	border: #000000 solid 2px;
 }
+.btn {
+	background: #000000;
+	color: #ffff52;
+	font-size: 5vw;
+	border: solid #ffff52 0.5vw;
+	cursor: pointer;
+	padding: 0vw 2vw;
+	margin: 2vw;
+	text-transform: uppercase;
+	letter-spacing: 1vw;
+	font-weight: bolder;
+}
+.btn:hover {
+	background: #ffff52;
+	border: solid #000000 0.5vw;
+}
+.icons{
+	font-size: 5vw;
+}
+
 
 
 
