@@ -7,11 +7,15 @@ body{
 	text-align: center;
 	color: white;
   }
+  /* .headerImg{
+	width: 50vw;
+	height: auto;
+  } */
   .navButton{
 	color: #ffff52;
-	/* width: 10rem; */
+	font-size: 1.5vw;
 	font-weight: bolder;
-	margin-left: 5rem;
+	margin-left: 3vw;
   }
 .navLinkSocial:hover{
 	background-color: #ffff52;
@@ -21,6 +25,9 @@ body{
 	background-color: red;
 	color: #000000;
 	border: #000000 solid 2px;
+}
+.navLinkSocialGroup{
+	margin-left: 2vw;
 }
 .btn {
 	min-height: 10vh;
@@ -71,10 +78,5 @@ a:hover{
 	min-height: 12rem;
 	padding: 0.2rem;
 }
-  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-	.row {   
-	  flex-direction: column;
-	}
-  }
+
   
