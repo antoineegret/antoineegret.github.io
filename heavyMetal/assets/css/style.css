@@ -48,7 +48,6 @@ body{
 }
 .imgYT{
 	height: 50vw;
-	margin: 2rem;
 	border-radius: 2rem;
 	border: solid black 1vw;
 }
@@ -60,6 +59,10 @@ footer{
 h3{
 	color: #ffff52;
 }
+h2, h1{
+	font-weight: bolder;
+	color: #fff;
+}
 .footerLink{
     font-size: 1.2rem;
     color: #fff;
@@ -67,6 +70,10 @@ h3{
 }
 a:hover{
     opacity: 0.7;
+}
+.galleryPhoto{
+	min-height: 12rem;
+	padding: 0.2rem;
 }
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
